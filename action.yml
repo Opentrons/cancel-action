@@ -11,7 +11,7 @@ inputs:
     default: "Cancelling Workflow"
 runs:
   using: 'node16'
-  main: 'cancel.js'
+  main: 'dist/index.js'
 branding:
   icon: 'cloud-snow'
   color: 'blue'

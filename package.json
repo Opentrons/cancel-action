@@ -1,0 +1,15 @@
+{
+  "name": "cancel-action",
+  "version": "0.6",
+  "description": "Clear step to cancel a workflow.",
+  "main": "cancel.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "ncc build cancel.js --license LICENSE"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@actions/core": "^1.6.0"
+  }
+}
