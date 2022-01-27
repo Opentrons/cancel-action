@@ -1,0 +1,13 @@
+name: Cancel this workflow
+
+on: push
+
+jobs:
+  Cancel:
+    name: Use this repo action to cancel this workflow
+    runs-on: ubuntu-latest
+    steps:
+      - name: Use the action
+        uses: Opentrons/cancel-action@0.3
+        with:
+          message: "Look the message works."

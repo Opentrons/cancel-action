@@ -5,9 +5,16 @@ inputs:
     description: 'Token'
     required: false
     default: ${{ github.token }}
+  message:
+    description: "Message about the cancellation."
+    required: true
+    default: "Cancelling Workflow"
 runs:
   using: 'node16'
   main: 'cancel.js'
 branding:
   icon: 'cloud-snow'
   color: 'blue'
+outputs:
+  message:
+    description: "Message about the cancellation."

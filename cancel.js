@@ -28,4 +28,11 @@ req.on('error', (error) => {
   process.exit(1)
 })
 
+const outputMessage = () => {
+  const message = core.getInput("message");
+  console.log(message);
+  core.setOutput("message", message);
+};
+
+outputMessage();
 req.end();
