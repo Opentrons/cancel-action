@@ -1,4 +1,6 @@
+const core = require("@actions/core");
 const https = require('https');
+
 const options = {
   hostname: 'api.github.com',
   path: `/repos/${process.env.GITHUB_REPOSITORY}/actions/runs/${process.env.GITHUB_RUN_ID}/cancel`,

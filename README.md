@@ -3,7 +3,7 @@ This Action uses the [GitHub API](https://docs.github.com/en/rest/reference/acti
 
 ```yaml
     - name: cancelling
-      uses: Opentrons/cancel-action@v0.7
+      uses: Opentrons/cancel-action@v0.8
         with:
           message: "Your message."
 ```
@@ -18,6 +18,6 @@ The cancellation might take a few seconds to process, this is most useful when y
 - ```bash
   git add .
   git commit -m "Your commit message"
-  git tag -a -m "Release message" v0.6
+  git tag -a -m "Release message" v0.8
   git push --follow-tags
   ```

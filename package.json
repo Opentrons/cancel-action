@@ -1,6 +1,6 @@
 {
   "name": "cancel-action",
-  "version": "v0.7",
+  "version": "v0.8",
   "description": "Clear step to cancel a workflow.",
   "main": "cancel.js",
   "scripts": {

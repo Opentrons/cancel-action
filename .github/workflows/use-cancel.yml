@@ -8,6 +8,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Use the action
-        uses: Opentrons/cancel-action@v0.7
+        uses: Opentrons/cancel-action@v0.8
         with:
           message: "Look the message works."
