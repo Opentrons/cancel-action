@@ -3,7 +3,7 @@ This Action uses the [GitHub API](https://docs.github.com/en/rest/reference/acti
 
 ```yaml
     - name: cancelling
-      uses: Opentrons/cancel-action@v0.6
+      uses: Opentrons/cancel-action@v0.7
         with:
           message: "Your message."
 ```
@@ -13,7 +13,7 @@ The cancellation might take a few seconds to process, this is most useful when y
 ## How to Release
 
 - open in dev container
-- bump the version in [README](README.md) and [package.json](package.json)
+- bump the version in [README](README.md), [package.json](package.json), [use-cancel.yml]().github/workflows/use-cancel.yml)
 - `npm run build`
 - ```bash
   git add .
