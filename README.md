@@ -1,5 +1,5 @@
 ## Cancel Action
-This Action uses the [GitHub API](https://developer.github.com/v3/actions/workflow_runs/#cancel-a-workflow-run) to cancel the currently running workflow. Example usage:
+This Action uses the [GitHub API](https://docs.github.com/en/rest/reference/actions#cancel-a-workflow-run) to cancel the currently running workflow. Example usage:
 
 ```yaml
     - name: cancelling
